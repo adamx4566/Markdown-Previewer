@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.editor-preview {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.editor, .preview {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.editor textarea {
+  flex: 1;
+  resize: vertical;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  min-height: 400px;
+}
+
+.preview #previewContent {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 400px;
+  overflow-y: auto;
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
