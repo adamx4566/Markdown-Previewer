@@ -14,3 +14,5 @@ It allows users to write Markdown text in the editor and see a live preview on t
 - CSS3
 - Vanilla JavaScript
 - [Marked.js](https://marked.js.org/) for parsing Markdown
+
+<img src="Pomodoro Timer/pictures/PomodoroTimer.png" alt="MarkdownPreviewer Preview" width="1000">
